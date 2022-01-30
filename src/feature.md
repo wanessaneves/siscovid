@@ -1,0 +1,4 @@
+- software que gerencia a quantidade de casos ativos de Covid em várias cidades
+- funcionalidades: criação de cidade; adição de casos em uma cidade específica; subtraçaõ de casos em uma cidade específica
+- uma cidade tem que ter: um ID, nome, Estado, Quantidade total de casos
+- a retirada ou adição de casos será feita pelo ID
