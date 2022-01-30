@@ -14,12 +14,14 @@ while run:
     if acao not in '1234':
         msg_erro()
     elif acao == '1':
-        nova_cidade() 
+        name = input('Nome: ')
+        uf = input('UF: ')
+        nova_cidade(name, uf) 
         print('Todas as cidades foram registradas com sucesso, obrigado(a) pela sua colaboração, continue se cuidando contra a Covid19. Até mais!')       
     elif acao == '2':
         id_cidade = int(input('Por favor digite o id da cidade: '))
         totalcasos = int(input('Agora digite o total de casos que você quer adicionar: '))
-        num_casos(totalcasos, id_cidade)
+        num_casos(id_cidade, totalcasos)
     elif acao == '3':
         lista_cidades()
     elif acao == '4':

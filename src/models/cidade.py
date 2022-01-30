@@ -11,6 +11,7 @@ class Cidade:
     def sub_total(self, qtde):
         self.totaldecasos -= qtde
 
+
     
     
 
